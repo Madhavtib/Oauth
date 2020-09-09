@@ -17,7 +17,7 @@ INSERT INTO oauth_client_details (client_id, client_secret, web_server_redirect_
      (2,2),  /* read operator */
      (3,2);  /* update operator */
 insert into user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('1', 'madhav','{bcrypt}$2a$10$2LqqUfW1DW9YfVsAL24Wc.4/000nySUDXtAB/IPS9QUiBYcD17.zW', 'madhav@gmail.com', '1', '1', '1', '1');
- insert into  user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('2', 'raghav', '{bcrypt}$2a$10$RzuiaRopoCCN/bTJ88JuV.pGgud4fzdfjJM82GX92EInXUp3dXwAi','raghav@gmail.com', '1', '1', '1', '1');
+insert into  user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('2', 'raghav', '{bcrypt}$2a$10$RzuiaRopoCCN/bTJ88JuV.pGgud4fzdfjJM82GX92EInXUp3dXwAi','raghav@gmail.com', '1', '1', '1', '1');
 
 INSERT INTO ROLE_USER (ROLE_ID, USER_ID)
     VALUES
